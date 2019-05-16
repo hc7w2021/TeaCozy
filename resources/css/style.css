@@ -17,6 +17,10 @@ h2, h4 {
     padding: 10px;
 }
 
+/* div {
+    border: 1px solid white;
+} */
+
 /* Header */
 
 header {
@@ -49,11 +53,9 @@ nav a:visited {
     color: seashell;
 }
 
-/* div {
-    border: 1px solid white;
-} */
-
 /* Content */
+
+/* Mission Panel */
 
 .panel#mission {
     display: flex;
@@ -67,6 +69,8 @@ nav a:visited {
     background-color: black;
     width: 100%;
 }
+
+/* Feature Panel */
 
 .panel#featured {
     height: 700px;
@@ -100,6 +104,8 @@ nav a:visited {
     font-weight: bold;
 }
 
+/* Location Panel */
+
 .panel#locations {
     display: flex;
     flex-direction: column;
@@ -126,6 +132,8 @@ nav a:visited {
     flex-direction: column;
     justify-content: center;
 }
+
+/* Contact Panel */
 
 #contact {
     height: 200px;
