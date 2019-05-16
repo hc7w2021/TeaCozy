@@ -122,6 +122,10 @@ nav a:visited {
     justify-content: center;
 }
 
+#contact {
+    height: 200px;
+}
+
 /* Footer */
 
 footer {
