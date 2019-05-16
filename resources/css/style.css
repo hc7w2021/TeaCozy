@@ -79,6 +79,7 @@ nav a:visited {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    height: 500px;
 }
 
 .teabox {
