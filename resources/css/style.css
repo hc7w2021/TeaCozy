@@ -3,6 +3,7 @@
 body {
     display: flex;
     flex-direction: column;
+    align-items: center;
     font-family:  Helvetica;
     font-size: 22px;
     color: seashell;
@@ -15,7 +16,6 @@ body {
 
 header {
     display: flex;
-    justify-content: space-between;
     align-items: center;
     position: fixed;
     z-index: 1;
@@ -27,6 +27,7 @@ header {
 
 .logo {
     display: flex;
+    flex-grow: 1;
     height: 50px;
     padding-left: 10px;
 }
@@ -64,4 +65,35 @@ div {
     align-items: center;
     width: 1200px;
     background-color: black;
+}
+
+.panel#featured {
+    height: 700px;
+    width: 1000px;
+    margin: 0px 100px;
+    padding-top: 70px;
+}
+
+.teaboxes {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.teabox {
+    height: 200px;
+    width: 300px;
+    padding: 5px;
+    margin: 10px;
+}
+
+.teabox img {
+    display: block;
+    height: 200px;
+}
+
+.teabox span {
+    display: block;
+    padding: 5px;
+    font-weight: bold;
 }
